@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01AB40C41885369DB796E89E /* Pods_swift_peopleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515194AADCA86F28C7467BA3 /* Pods_swift_peopleTests.framework */; };
+		27B5B1081DA09C21003F8F6E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B5B1071DA09C21003F8F6E /* Person.swift */; };
 		4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE925F1BFBDA3700132675 /* AppDelegate.swift */; };
 		4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92611BFBDA3700132675 /* ViewController.swift */; };
 		4DEE92651BFBDA3700132675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE92631BFBDA3700132675 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B5B1071DA09C21003F8F6E /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4DEE925C1BFBDA3700132675 /* swift-people.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-people.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEE925F1BFBDA3700132675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DEE92611BFBDA3700132675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				4DEE925F1BFBDA3700132675 /* AppDelegate.swift */,
 				4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */,
+				27B5B1071DA09C21003F8F6E /* Person.swift */,
 				4DEE927F1BFCCC5000132675 /* Resources */,
 			);
 			path = "swift-people";
@@ -349,6 +352,7 @@
 			files = (
 				4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */,
 				4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */,
+				27B5B1081DA09C21003F8F6E /* Person.swift in Sources */,
 				4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +483,7 @@
 			baseConfigurationReference = E2309185FADDDB992CB7A5B1 /* Pods-swift-people.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "swift-people/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.swift-people";
@@ -492,6 +497,7 @@
 			baseConfigurationReference = 50C76FFD14E7FC7D68828E53 /* Pods-swift-people.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "swift-people/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.swift-people";
